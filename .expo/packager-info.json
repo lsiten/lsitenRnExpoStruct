@@ -1,0 +1,10 @@
+{
+  "webpackServerPort": null,
+  "expoServerNgrokUrl": "https://ht-ur7.anonymous.lsitenrnexpo.exp.direct",
+  "packagerNgrokUrl": "https://packager.ht-ur7.anonymous.lsitenrnexpo.exp.direct",
+  "ngrokPid": 18520,
+  "packagerPort": 19001,
+  "packagerPid": 17528,
+  "devToolsPort": 19002,
+  "expoServerPort": 19000
+}
