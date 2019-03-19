@@ -15,10 +15,15 @@ class Index extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Home{this.props.counter}</Text>
-        <Button style={styles.button} onPress={this.props.add} title="增加"/>
-        <Button style={styles.button} onPress={this.props.dec} title="减少"/>
-        <Button style={styles.button} onPress={this.props.asyncAdd} title="异步增加"/>
-        <Button style={styles.button} onPress={this.props.user_get_user_list} title="异步fecth"/>
+        <View style={styles.button}>
+          <Button size='large' onPress={this.props.add} title="增加"/>
+        </View>
+        <View style={styles.button}>
+          <Button size='large' onPress={this.props.dec} title="减少"/>
+        </View>
+        <View style={styles.button}>
+          <Button size='large' onPress={this.props.asyncAdd} title="异步增加"/>
+        </View>
       </View>
     );
   }
@@ -37,11 +42,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   button: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-    flex: 1,
-    marginTop: 20,
+    marginTop: 20
   }
 });
 export default connect(state => ({
